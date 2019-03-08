@@ -6,7 +6,7 @@
   "scripts": {
     "release": "np",
     "prepare": "echo pbtest:prepare >> log.txt",
-    "prepublishOnly": "echo pbtest:prepublishOnly >> log.txt",
+    "prepublishOnly": "echo pbtest:prepublishOnly >> log.txt; node ./buildFile.js",
     "prepack": "echo pbtest:prepack >> log.txt",
     "postpack": "echo pbtest:postpack >> log.txt",
     "publish": "echo pbtest:publish >> log.txt",
