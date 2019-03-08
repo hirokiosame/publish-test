@@ -1,0 +1,53 @@
+{
+  "name": "publish-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "np",
+    "prepublish": "echo pbtest:prepublish",
+    "prepare": "echo pbtest:prepare",
+    "prepublishOnly": "echo pbtest:prepublishOnly",
+    "prepack": "echo pbtest:prepack",
+    "postpack": "echo pbtest:postpack",
+    "publish": "echo pbtest:publish",
+    "postpublish": "echo pbtest:postpublish",
+    "preinstall": "echo pbtest:preinstall",
+    "install": "echo pbtest:install",
+    "postinstall": "echo pbtest:postinstall",
+    "preuninstall": "echo pbtest:preuninstall",
+    "uninstall": "echo pbtest:uninstall",
+    "postuninstall": "echo pbtest:postuninstall",
+    "preversion": "echo pbtest:preversion",
+    "version": "echo pbtest:version",
+    "postversion": "echo pbtest:postversion",
+    "pretest": "echo pbtest:pretest",
+    "test": "echo pbtest:test",
+    "posttest": "echo pbtest:posttest",
+    "prestop": "echo pbtest:prestop",
+    "stop": "echo pbtest:stop",
+    "poststop": "echo pbtest:poststop",
+    "prestart": "echo pbtest:prestart",
+    "start": "echo pbtest:start",
+    "poststart": "echo pbtest:poststart",
+    "prerestart": "echo pbtest:prerestart",
+    "restart": "echo pbtest:restart",
+    "postrestart": "echo pbtest:postrestart",
+    "preshrinkwrap": "echo pbtest:preshrinkwrap",
+    "shrinkwrap": "echo pbtest:shrinkwrap",
+    "postshrinkwrap": "echo pbtest:postshrinkwrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirokiosame/publish-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirokiosame/publish-test/issues"
+  },
+  "homepage": "https://github.com/hirokiosame/publish-test#readme",
+  "dependencies": {
+    "np": "^4.0.2"
+  }
+}
