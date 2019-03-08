@@ -37,6 +37,9 @@
     "shrinkwrap": "echo pbtest:shrinkwrap",
     "postshrinkwrap": "echo pbtest:postshrinkwrap"
   },
+  "publishConfig":{
+    "registry": "http://localhost:7001"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hirokiosame/publish-test.git"
