@@ -1,6 +1,6 @@
 {
   "name": "publish-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "shrinkwrap": "echo pbtest:shrinkwrap",
     "postshrinkwrap": "echo pbtest:postshrinkwrap"
   },
-  "publishConfig":{
+  "publishConfig": {
     "registry": "http://localhost:7001"
   },
   "repository": {
