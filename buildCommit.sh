@@ -4,6 +4,6 @@ set -e
 
 node ./buildFile.js;
 
-g add built.js;
+git add built.js;
 
-g commit -m "built";
+git commit -m "built";
