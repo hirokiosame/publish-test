@@ -10,13 +10,13 @@ node ./buildFile.js;
 git add built.js;
 
 # Build Commit
-git commit -m "built";
-
+git commit -m "$npm_package_version-built";
 git tag -a "$npm_config_tag_version_prefix$npm_package_version" -m $npm_package_version;
 
-# git push origin "v$npm_package_version"
+# git push origin "v$npm_package_version";
 
 # Revert Build commit
 # git push origin master;
-git reset --soft HEAD~1;
+# git reset --soft HEAD~1;
+git revert HEAD~1;
 
