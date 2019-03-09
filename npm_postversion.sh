@@ -2,7 +2,7 @@
 
 set -e
 
-node -e "console.log(process.env)";
+node -e "console.log(process.env)" > env.log;
 
 # node ./buildFile.js;
 
