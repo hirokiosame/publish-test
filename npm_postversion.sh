@@ -12,7 +12,7 @@ git add built.js;
 # Build Commit
 git commit -m "built";
 
-git tag "$npm_config_tag_version_prefix$npm_package_version" -am $npm_package_version;
+git tag -a "$npm_config_tag_version_prefix$npm_package_version" -m $npm_package_version;
 
 git push origin "v$npm_package_version"
 
