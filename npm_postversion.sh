@@ -19,7 +19,7 @@ git add built.js;
 # Build Commit
 git commit -m "built";
 
-git tag "v$npm_package_version";
+git tag "v$npm_package_version" -am "built";
 
 # Revert Build commit
 git reset --hard HEAD~1;
