@@ -2,11 +2,20 @@
 
 set -e
 
-node -e "console.log(process.env)" > env.log;
+# Delete tag just created
+git tag -d "v$npm_package_version";
 
-# node ./buildFile.js;
+# Build files
+node ./buildFile.js;
+git add built.js;
 
-# git add built.js;
+# Commit
+git commit -m "built";
 
-# git commit -m "built";
+git tag "v$npm_package_version";
+
+# node -e "console.log(process.env)" > env.log;
+
+
+
 
