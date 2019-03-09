@@ -2,6 +2,13 @@
 
 set -e
 
+echo 'starting postversion';
+echo 'starting postversion';
+echo 'starting postversion';
+echo 'starting postversion';
+echo 'starting postversion';
+echo 'starting postversion';
+
 # Delete tag just created
 git tag -d "v$npm_package_version";
 
