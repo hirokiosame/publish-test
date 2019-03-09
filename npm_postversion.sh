@@ -24,6 +24,13 @@ git tag "v$npm_package_version";
 # Revert Build commit
 git reset --hard HEAD~1;
 
+
+echo 'ending postversion';
+echo 'ending postversion';
+echo 'ending postversion';
+echo 'ending postversion';
+echo 'ending postversion';
+echo 'ending postversion';
 # node -e "console.log(process.env)" > env.log;
 
 
