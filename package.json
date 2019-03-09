@@ -6,7 +6,7 @@
   "scripts": {
     "release": "np --no-cleanup --no-git-tag-version",
     "prepare": "echo pbtest:prepare >> np.log",
-    "prepublishOnly": "echo pbtest:prepublishOnly >> np.log; ./buildCommit.sh",
+    "prepublishOnly": "echo pbtest:prepublishOnly >> np.log",
     "prepack": "echo pbtest:prepack >> np.log",
     "postpack": "echo pbtest:postpack >> np.log",
     "publish": "echo pbtest:publish >> np.log",
