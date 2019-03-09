@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "np --no-git-tag-version",
+    "release": "np --no-cleanup --no-git-tag-version",
     "prepare": "echo pbtest:prepare >> np.log",
     "prepublishOnly": "echo pbtest:prepublishOnly >> np.log; ./buildCommit.sh",
     "prepack": "echo pbtest:prepack >> np.log",
