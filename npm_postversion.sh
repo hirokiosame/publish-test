@@ -14,9 +14,9 @@ git commit -m "built";
 
 git tag -a "$npm_config_tag_version_prefix$npm_package_version" -m $npm_package_version;
 
-# git push origin "v$npm_package_version"
+git push origin "v$npm_package_version"
 
 # Revert Build commit
-git push origin master;
-# git reset --hard HEAD~1;
+# git push origin master;
+git reset --soft HEAD~1;
 
