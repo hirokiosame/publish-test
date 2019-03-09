@@ -2,7 +2,7 @@
 
 set -e
 
-echo "1. Rewriting tag";
+echo "1. Deleting tag";
 git tag -d "v$npm_package_version";
 
 # Build files
@@ -11,7 +11,7 @@ node ./buildFile.js;
 git add built.js;
 
 # Build Commit
-echo "3. Committing build";
+echo "3. Committing build: $npm_package_version-built";
 git commit -m "$npm_package_version-built";
 
 # Delete tag just created
