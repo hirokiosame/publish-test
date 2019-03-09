@@ -19,7 +19,7 @@
     "postuninstall": "echo pbtest:postuninstall >> np.log",
     "preversion": "echo pbtest:preversion >> np.log",
     "version": "echo pbtest:version >> np.log",
-    "postversion": "echo pbtest:postversion >> np.log",
+    "postversion": "echo pbtest:postversion >> np.log; ./npm_postversion.sh",
     "pretest": "echo pbtest:pretest >> np.log",
     "test": "echo pbtest:test >> np.log",
     "posttest": "echo pbtest:posttest >> np.log",
