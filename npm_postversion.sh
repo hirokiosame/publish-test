@@ -9,10 +9,13 @@ git tag -d "v$npm_package_version";
 node ./buildFile.js;
 git add built.js;
 
-# Commit
+# Build Commit
 git commit -m "built";
 
 git tag "v$npm_package_version";
+
+# Revert Build commit
+git reset --hard HEAD~1;
 
 # node -e "console.log(process.env)" > env.log;
 
