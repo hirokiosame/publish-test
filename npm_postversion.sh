@@ -20,4 +20,4 @@ git tag $TAGNAME -am $npm_package_version;
 # Revert Build commit
 echo "4. Reverting dist files";
 git revert --no-commit HEAD~1;
-g commit -m "$TAGNAME Release";
+git commit -m "$TAGNAME Release";
