@@ -13,7 +13,7 @@ git commit -m "$npm_package_version-built";
 
 # Delete tag just created
 echo "3. Replacing tag";
-TAGNAME="$npm_config_tag_version_prefix$npm_package_version"
+TAGNAME="$npm_config_tag_version_prefix$npm_package_version";
 git tag -d $TAGNAME;
 git tag $TAGNAME -am $npm_package_version;
 
